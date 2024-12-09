@@ -9,7 +9,6 @@
 <body>
 <h1>Login</h1>
 
-<!-- Display error message if exists -->
 <c:if test="${not empty errorMessage}">
     <p style="color: red;">${errorMessage}</p>
 </c:if>

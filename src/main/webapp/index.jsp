@@ -1,4 +1,4 @@
-<!-- index.jsp -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +9,7 @@
 <body>
 <h1>Welcome to the Web Application</h1>
 
-<!-- Display message if exists -->
+
 <c:if test="${not empty sessionScope.message}">
     <p>${sessionScope.message}</p>
 </c:if>
